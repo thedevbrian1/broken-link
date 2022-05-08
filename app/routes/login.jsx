@@ -15,7 +15,7 @@ export async function action({ request }) {
         method: 'post',
         headers: {
             'Content-Type': 'application/json',
-            'X-Digipay-App': '3fcd0d09bf4a464240dc3aad9ff0483f'
+            
         },
         body: JSON.stringify(requestBody)
     });
