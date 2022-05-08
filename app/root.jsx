@@ -32,6 +32,7 @@ export async function loader({ request }) {
   //     "Set-Cookie": await commitSession(session)
   //   }
   // });
+  return null;
   
 }
 
